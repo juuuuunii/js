@@ -1,0 +1,4 @@
+.wrap {width:100%;}
+.slide_wrap {width:100%; max-width:1200px; position:relative; margin:0 auto; overflow: hidden;}
+.slides {width: 100%; position: relative;}
+.slide {width:100%; position:absolute;}

@@ -1,0 +1,4 @@
+table{margin:100px auto; width: 100%; max-width:1000px;}
+table td, table th{height: 50px; vertical-align: middle; text-align: center;}
+tfoot{text-align: right; padding-right: 10px;}
+span{display: block;}

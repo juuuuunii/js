@@ -1,0 +1,7 @@
+.wrap{width: 100%; height: 100%;}
+.pages{width: 100%; height: 100%;}
+#page1{background-color: red}
+#page2{background-color: orange; max-height: 500px;}
+#page3{background-color: yellow;}
+#page4{background-color: green; max-height: 500px;}
+#page5{background-color: blue;}

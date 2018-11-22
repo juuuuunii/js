@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>table예제</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/table.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<table border="1">
+		<colgroup>
+			<col width="5%">
+			<col>
+			<col width="10%">
+			<col width="20%">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>번호</th>
+				<th>질문</th>
+				<th>작성자</th>
+				<th>구분<span>(참/거짓)</span></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>오동규는 헛똑똑이 입니다.</td>
+				<td>이준희</td>
+				<td>참</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>오동규와 정우재는 똑같습니다.</td>
+				<td>이준희</td>
+				<td>참</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>오동규는 클래시로얄 게임을 짱잘합니다.</td>
+				<td>정우재</td>
+				<td>거짓</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="4">total: 3data</td>
+			</tr>
+		</tfoot>
+	</table>
+
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>01</th>
+				<th>02</th>
+				<th>03</th>
+				<th>04</th>
+				<th>05</th>
+				<th>06</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>A</td>
+				<td colspan="3">B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>E</td>
+				<td>F</td>
+				<td>G</td>
+				<td>H</td>
+				<td>I</td>
+				<td rowspan="2">J</td>
+			</tr>
+			<tr>
+				<td>K</td>
+				<td colspan="2">L</td>
+				<td>M</td>
+				<td>N</td>
+			</tr>
+			<tr>
+				<td>O</td>
+				<td>P</td>
+				<td colspan="2" rowspan="2">Q</td>
+				<td>R</td>
+				<td>S</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2">T</td>
+				<td>U</td>
+				<td>V</td>
+			</tr>
+			<tr>
+				<td>W</td>
+				<td>X</td>
+				<td>Y</td>
+				<td>Z</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<table border="1">
+		<tr>
+			<td>a</td>
+			<td>b</td>
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>d</td>
+		</tr>
+	</table>
+
+
+	<table border="1" class="w3-table-all w3-hoverable w3-centered">
+		<thead>
+			<tr>
+				<th>오</th>
+				<th>동</th>
+				<th>규</th>
+				<th>는</th>
+				<th>몽</th>
+				<th>충</th>
+				<th>이</th>
+				<th>이</th>
+				<th>다</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="3" rowspan="3"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="2" rowspan="3"></td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td rowspan="4"></td>
+				<td></td>
+				<td colspan="2" rowspan="2"></td>
+				<td></td>
+				<td></td>
+				<td rowspan="2"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td colspan="2"></td>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="3"></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+	<script src="../js/table.js"></script>
+</body>
+
+</html>
