@@ -1,12 +1,16 @@
 //객체 :function(){}()
 var WheelScroll = (function() {
 	function WheelScroll(_opt) {
-		var obj = this;
+		var obj = this;  //this = function
 		if(_opt) {
 			if(_opt.page)  this.page = $(_opt.page);
 			else this.page = $(".page");
+			//만약 _opt에서 page가 존재한다면 이 함수의 page는 $(_opt.page); 이다.
+			//_opt에서 page가 존재하지 않는다면 이 함수의 page는 $(".page"); 이다.
 			if(_opt.speed) this.speed = _opt.speed;
 			else this.speed = 200;
+			//만약 _opt에서 speed가 존재한다면 이 함수의 page는 $(_opt.page); 이다.
+			//_opt에서 speed가 존재하지 않는다면 이 함수의 speed는 200 이다.
 		}
 		else {
 			this.page = $(".page");
